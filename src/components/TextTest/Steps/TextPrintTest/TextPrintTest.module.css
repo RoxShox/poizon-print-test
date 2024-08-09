@@ -1,0 +1,30 @@
+.test-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.test_text_wrapper {
+    background-color: var(--simple-white);
+    padding: 3em 1em;
+    border-radius: 7px;
+    box-shadow: 0 0 10px 5px rgba(var(--decor-color-rgb), .25);
+    position: relative;
+}
+
+.test_loading_text {
+    align-self: start;
+}
+
+
+.test_timer{
+    color: var(--time-color);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.error_text{
+    color: var(--wrong-color);
+}

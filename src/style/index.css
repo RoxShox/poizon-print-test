@@ -1,0 +1,44 @@
+@import "variables.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app{
+    background-color: var(--primary-light);
+ 
+    
+}
+
+.container {
+    padding: 0 1.5em;
+    max-width: 1530px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.current-char,
+.wrong-char {
+    color: var(--primary-light);
+}
+
+.current-char {
+    background-color: var(--right-color);
+}
+
+.wrong-char {
+    background-color: var(--wrong-color);
+}
+
+.right-char {
+    color: var(--right-color);
+}
