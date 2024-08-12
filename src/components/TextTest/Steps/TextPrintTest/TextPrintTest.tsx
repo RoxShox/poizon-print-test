@@ -18,9 +18,10 @@ import {
 } from "../../../../store/slices/timerSlice"
 import { setStep } from "../../../../store/slices/stepSlice"
 
-import { TestStep } from "../../../../enum"
+import { getCurrentChar } from "../../../../utils/getCurrentChar"
+import { compareChars } from "../../../../utils/compareChars"
 
-import { compareChars, getCurrentChar } from "../../../../utils/charTransform"
+import { TestStep } from "../../../../enum"
 
 import styled from "./TextPrintTest.module.css"
 

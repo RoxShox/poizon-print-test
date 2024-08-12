@@ -6,17 +6,16 @@
 }
 
 .test_text_wrapper {
-    background-color: var(--simple-white);
+    background-color: var(--white-light);
     padding: 3em 1em;
     border-radius: 7px;
-    box-shadow: 0 0 10px 5px rgba(var(--decor-color-rgb), .25);
+    box-shadow: 0 0 10px 5px rgb(164 176 235 / 30%);
     position: relative;
 }
 
 .test_loading_text {
     align-self: start;
 }
-
 
 .test_timer{
     color: var(--time-color);
@@ -26,5 +25,5 @@
 }
 
 .error_text{
-    color: var(--wrong-color);
+    color: var(--error-color);
 }

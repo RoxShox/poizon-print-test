@@ -17,17 +17,14 @@ export const fetchText = createAsyncThunk<
 	string,
 	string,
 	{ rejectValue: string }
->(
-	"textSlice/fetchText",
-	async function (sentences: string, { rejectWithValue }) {
-		try {
-			const response = await getText()
-			return response.data
-		} catch (e) {
-			return rejectWithValue((e as Error).message)
-		}
+>("textSlice/fetchText", async function (_, { rejectWithValue }) {
+	try {
+		const response = await getText()
+		return response.data
+	} catch (e) {
+		return rejectWithValue((e as Error).message)
 	}
-)
+})
 
 const initialState: TextState = {
 	text: [],

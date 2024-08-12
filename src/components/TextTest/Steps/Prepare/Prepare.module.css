@@ -17,7 +17,7 @@
 
 .prepare_box_subtitle{
     text-align: center;
-    color: var(--decor-color);
+    color: var(--primary-light);
 }
 
 .prepare_box_btn{
@@ -29,14 +29,14 @@
     height: 50px;
     border-radius: 10px;
     font-size: 26px;
-    color: var(--decor-color);
+    color: var(--primary-light);
     transition: all .3s;
     display: block;
     border: 2px solid transparent
 }
 
 .prepare_box_btn:hover{
-    background: var(--simple-white);
+    background: var(--bg-light);
     border: 2px solid var(--primary-dark);
     transition: all .3s;
     color: var(--primary-dark);
@@ -46,6 +46,5 @@
     .prepare_box {
         padding: 16px;
     }
-   
    
 }

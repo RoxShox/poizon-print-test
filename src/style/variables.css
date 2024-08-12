@@ -1,19 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
 :root {
-    --primary-light: #edf2fb;
+    --bg-light: #f0fffb;
+    --white-light: #cccdd9;
+    --primary-light: #8188c4;
     --primary-dark: #16425b;
-    --decor-color: #cdb4db;
-    --right-color: #02b163;
-    --wrong-color: #a4161a;
-    --simple-white: #ffffff;
+    --right-color: #47fdab;
+    --error-color: #f00a12;
     --time-color:#59f710;
 
-    --decor-color-rgb: 205, 180, 219;
-    --primary-dark-rgb: 22, 66, 91;
-    --simple-black-rgb: 0, 0, 0;
-
-    --heading-font: 'Marcellus', serif;
-    --paragraph-font: 'Ubuntu', sans-serif;
+    --primary-shadow: rgba(0, 0, 0, 0.5)
 }

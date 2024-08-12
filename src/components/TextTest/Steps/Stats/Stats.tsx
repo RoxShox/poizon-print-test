@@ -11,12 +11,11 @@ import { setStep } from "../../../../store/slices/stepSlice"
 import { TestStep } from "../../../../enum"
 import { secondsToEndTest } from "../../../../constants"
 
-import {
-	accuracyCounting,
-	speedCounting,
-} from "../../../../utils/statsCounting"
+import { accuracyCounting } from "../../../../utils/accuracyCounting"
+import { speedCounting } from "../../../../utils/speedCounting"
 
 import styled from "./Stats.module.css"
+
 const Stats = () => {
 	const [speed, setSpeed] = useState("0.00")
 	const [accuracy, setAccuracy] = useState("0.00")
@@ -44,12 +43,12 @@ const Stats = () => {
 	return (
 		<div className={styled.stats_wrap}>
 			<div>
-				<p className="mid-header uppercase-text">speed</p>
-				<p className="uppercase-text">{speed} WPM</p>
+				<p>speed</p>
+				<p>{speed} WPM</p>
 			</div>
 			<div>
-				<p className="mid-header uppercase-text ">accuracy</p>
-				<p className="uppercase-text">{accuracy} %</p>
+				<p>accuracy</p>
+				<p>{accuracy} %</p>
 			</div>
 			<Button
 				className={styled.stats_btn}

@@ -20,7 +20,7 @@
     height: 70px;
     border-radius: 10px;
     font-size: 26px;
-    color: var(--decor-color);
+    color: var(--primary-light);
     transition: all .3s;
     display: block;
     border: 2px solid transparent

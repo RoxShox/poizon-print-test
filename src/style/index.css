@@ -7,9 +7,18 @@
 }
 
 .app{
-    background-color: var(--primary-light);
+    background-color: var(--bg-light);
  
     
+}
+
+body {
+    color: var(--primary-dark);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 1.1px;
+    line-height: 1.5em;
 }
 
 .container {
@@ -27,7 +36,7 @@
 }
 
 .current-char,
-.wrong-char {
+.error-char {
     color: var(--primary-light);
 }
 
@@ -35,10 +44,18 @@
     background-color: var(--right-color);
 }
 
-.wrong-char {
-    background-color: var(--wrong-color);
+.error-char {
+    background-color: var(--error-color);
 }
 
 .right-char {
     color: var(--right-color);
+}
+
+.error-text {
+    color: var(--error-color);
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.25em;
+    text-transform: uppercase;
 }
